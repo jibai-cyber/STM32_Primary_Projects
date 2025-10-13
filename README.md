@@ -1,25 +1,62 @@
 # STM32_Primary_Projects
 
-## Low-precision oscilloscope
-Requirement:  
+## What are these about?  
+### Low-precision oscilloscope
+#### description
+One of the projects in a small competition that I found quite interesting.  
+
+#### Requirement
 > https://gitee.com/liu-mouyi/automated/tree/master/
 
-## Smart Belt
-Requirement:  See the uploaded file
+#### Peripheral devices
+- DMA
+- ADC
+- OLED
+- KEY
 
-## What can it offer at present?
-If you are patient enough to look, it has some relevant applicable algorithms and a relatively complete implementation process.  
+#### Methods included
+Including but not limited to:
+- Coordination of sampling frequency and data processing frequency
+- Enable the signal to be updated with low latency and displayed on the OLED
+- Capture of the peak voltage and frequency of the sine wave signal
+- Selection of the appropriate scaling ratio
+
+### Smart Belt
+#### description
+My first team collaboration project and this is the code for the embedded part.  
+A belt with functions including calling, positioning, alarming and etc.
+
+#### Requirement
+See the uploaded file
+
+#### Peripheral devices
+Including but not limited to:
+- atgm336GPS
+- MPU6050
+- ESP8266 (Wi-Fi module)
+- SYN6288
+- OLED
+
+#### Methods included
+Including but not limited to:
+- Interpreting NMEA messages and obtaining the location information
+- Determine whether the person has fallen by using the acceleration sensor
+- Communicating with the backend and parsing JSON messages
+- Broadcasting the text messages sent by the backend in Chinese using SYN6288
+- The design of multiple menus
+
 Below are some demonstration videos that I recorded myself. The extraction code is: 02hc
 
 > https://www.alipan.com/s/T4jDgnfJMRZ
 
-## Why upload this?
-1. The main purpose is to preserve these precious memories for that innocent boy back then, hoping to retrieve and refine them in the future. :yum:
-2. It would be my pleasure if it can offer you some reference or help. :kissing:
+Including the results of each project.  
+Unfortunatly, The video of _Low-precision oscilloscope_ is missed.  
+But I assure you that the code works good (Since I got full marks).
 
 ## To-do task
 1. The code needs to be cleaned.
 2. Provide a instruction Doc.
 
-Well, I believe that I'll act on it when I'm free.  
-If not, it means that that I'm not yet free enough. :sob:
+## Appreciation
+For the laboratory seniors and mentors who introduced me to this field.
+

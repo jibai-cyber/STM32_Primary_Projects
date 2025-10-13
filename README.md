@@ -44,6 +44,7 @@ Including but not limited to:
 - Communicating with the backend and parsing JSON messages
 - Broadcasting the text messages sent by the backend in Chinese using SYN6288
 - The design of multiple menus
+- Power-off storage of information (FLASH)
 
 Below are some demonstration videos that I recorded myself. The extraction code is: 02hc
 

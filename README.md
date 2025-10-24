@@ -58,6 +58,10 @@ But I assure you that the code works good (Since I got full marks).
 1. The code needs to be cleaned.
 2. Provide a instruction Doc.
 
+## Project start date
+March 2023 -> _Smart Belt_  
+May 2023 -> _Low-precision oscilloscope_
+
 ## Appreciation
 For the laboratory seniors and mentors who introduced me to this field.
 
